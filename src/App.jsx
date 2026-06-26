@@ -4,7 +4,7 @@ import Footer from "./Components/footer";
 import Lobby from "./Components/lobby";
 import QuestionCard from "./Components/questionCard";
 import StatsSummary from "./Components/statsSummary";
-import { questions } from "./data/questions";
+import { questions } from "./Data/questions";
 import { getMuted, setMuted, playSound } from "../public/Utils/audio";
 
 export default function App() {
