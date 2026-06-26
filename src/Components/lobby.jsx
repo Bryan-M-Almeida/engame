@@ -8,7 +8,7 @@ import {
   VolumeX,
   Volume2,
 } from "lucide-react";
-import { playSound } from "../utils/audio";
+import { playSound } from "../Utils/audio";
 import { useState } from "react";
 
 export default function Lobby({

@@ -9,7 +9,7 @@ import {
   ChevronRight,
   HelpCircle,
 } from "lucide-react";
-import { playSound } from "../utils/audio";
+import { playSound } from "../Utils/audio";
 
 export default function QuestionCard({
   question,
