@@ -64,7 +64,7 @@ export default function App() {
 
     // Shuffle and pick 5 questions (or up to 5)
     const shuffled = [...filtered].sort(() => 0.5 - Math.random());
-    const selectedQuestions = shuffled.slice(0, 5);
+    const selectedQuestions = shuffled.slice(0, questions.length);
 
     setCurrentQuestions(selectedQuestions);
     setCurrentQuestionIndex(0);
@@ -178,50 +178,50 @@ export default function App() {
   };
 
   return (
-    <div
-      className="min-h-screen bg-indigo-950 text-white flex flex-col justify-between selection:bg-yellow-300 selection:text-indigo-950 pb-6"
-      id="app-root"
-    >
+    <div className="">
       <Header
         onRestart={handleRestart}
         muted={muted}
         onToggleMute={handleToggleMute}
       />
-      <main className="flex-grow flex items-center justify-center py-6 md:py-10 px-4">
-        {gameStage === "lobby" && (
-          <Lobby
-            onStartGame={handleStartGame}
-            bestScores={bestScores}
-            muted={muted}
-            onToggleMute={handleToggleMute}
-          />
-        )}
-
-        {gameStage === "playing" && currentQuestions.length > 0 && (
-          <QuestionCard
-            question={currentQuestions[currentQuestionIndex]}
-            questionNumber={currentQuestionIndex + 1}
-            totalQuestions={currentQuestions.length}
-            onAnswerSelected={handleAnswerSelected}
-            onNextQuestion={handleNextQuestion}
-            score={score}
-            streak={streak}
-          />
-        )}
-
-        {gameStage === "summary" && (
-          <div className="w-full max-w-4xl mx-auto p-4 md:p-6">
-            <StatsSummary
-              answers={answers}
-              score={score}
-              maxStreak={maxStreak}
-              speedPoints={speedPoints}
-              totalStreakBonus={totalStreakBonus}
-              onRestart={handleRestart}
+      <div
+        className="min-h-screen bg-indigo-950 text-white flex flex-col items-center justify-between selection:bg-yellow-300 selection:text-indigo-950 pb-6"
+        id="app-root"
+      >
+        <main className="flex-grow flex items-center justify-center py-6 md:py-10 px-4">
+          {gameStage === "lobby" && (
+            <Lobby
+              onStartGame={handleStartGame}
+              bestScores={bestScores}
+              muted={muted}
+              onToggleMute={handleToggleMute}
             />
-          </div>
-        )}
-      </main>
+          )}
+          {gameStage === "playing" && currentQuestions.length > 0 && (
+            <QuestionCard
+              question={currentQuestions[currentQuestionIndex]}
+              questionNumber={currentQuestionIndex + 1}
+              totalQuestions={currentQuestions.length}
+              onAnswerSelected={handleAnswerSelected}
+              onNextQuestion={handleNextQuestion}
+              score={score}
+              streak={streak}
+            />
+          )}
+          {gameStage === "summary" && (
+            <div className="w-full max-w-4xl mx-auto p-4 md:p-6">
+              <StatsSummary
+                answers={answers}
+                score={score}
+                maxStreak={maxStreak}
+                speedPoints={speedPoints}
+                totalStreakBonus={totalStreakBonus}
+                onRestart={handleRestart}
+              />
+            </div>
+          )}
+        </main>
+      </div>
       <Footer />
     </div>
   );
