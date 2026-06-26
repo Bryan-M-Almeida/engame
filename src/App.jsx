@@ -5,7 +5,7 @@ import Lobby from "./Components/lobby";
 import QuestionCard from "./Components/questionCard";
 import StatsSummary from "./Components/statsSummary";
 import { questions } from "./data/questions";
-import { getMuted, setMuted, playSound } from "./utils/audio";
+import { getMuted, setMuted, playSound } from "../public/Utils/audio";
 
 export default function App() {
   const [gameStage, setGameStage] = useState("lobby"); // 'lobby' | 'playing' | 'summary'
