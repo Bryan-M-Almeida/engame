@@ -24,20 +24,6 @@ export default function Lobby({
   const [category, setCategory] = useState("Todos");
   const [error, setError] = useState("");
 
-  const categories = [
-    "Todos",
-    "Verb To Be",
-    "Basic English",
-    "Vocabulary",
-    "Reading",
-  ];
-  const categoryIcons = {
-    Todos: "🎒",
-    "Verb To Be": "🚉",
-    "Basic English": "🏫",
-    Vocabulary: "💻",
-    Reading: "📘",
-  };
 
   const difficulties = [
     {
@@ -74,15 +60,14 @@ export default function Lobby({
     playSound("correct");
     onStartGame({
       playerName: trimmed,
-      difficulty,
-      category,
+      difficulty
     });
   };
 
   return (
-    <div
-      className="w-full max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-12 gap-6 p-4 md:p-6"
-      id="lobby-container"
+    <section
+      className="w-full max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 p-4 md:p-6"
+      id="lobby"
     >
       {/* Columna Izquierda: Configuración del Juego */}
       <motion.div
@@ -94,7 +79,6 @@ export default function Lobby({
         <div>
           <div className="flex items-center justify-between mb-6">
             <div className="flex items-center gap-2">
-              <span className="text-3xl">🚀</span>
               <div>
                 <h1 className="text-2xl font-black font-display tracking-tight text-white">
                   Crea tu Jugador
@@ -177,44 +161,6 @@ export default function Lobby({
               </p>
             </div>
 
-            {/* Selección Categoría */}
-            <div className="space-y-2">
-              <label className="text-sm font-black text-indigo-200 uppercase tracking-widest block font-display">
-                Área de Conocimiento:
-              </label>
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
-                {categories.map((cat) => (
-                  <button
-                    key={cat}
-                    type="button"
-                    onClick={() => {
-                      setCategory(cat);
-                      playSound("correct");
-                    }}
-                    className={`flex items-center gap-3 border-2 rounded-2xl p-3 text-left transition text-sm font-bold cursor-pointer ${
-                      category === cat
-                        ? "bg-yellow-400 border-yellow-500 text-indigo-950 ring-2 ring-yellow-400/35 shadow-[0_4px_0_0_#d97706]"
-                        : "bg-indigo-950 border-indigo-800 text-indigo-300 hover:bg-indigo-800/80 shadow-[0_4px_0_0_#1e1b4b]"
-                    }`}
-                    id={`category-btn-${cat.replace(/\s+/g, "-")}`}
-                  >
-                    <span className="text-2xl">{categoryIcons[cat]}</span>
-                    <div>
-                      <span className="font-extrabold block text-xs sm:text-sm">
-                        {cat === "Todos" ? "Todas las Áreas" : cat}
-                      </span>
-                      {bestScores[cat] !== undefined && (
-                        <span
-                          className={`text-[10px] font-mono block font-bold ${category === cat ? "text-indigo-900" : "text-indigo-400"}`}
-                        >
-                          Mejor: {bestScores[cat]} pts
-                        </span>
-                      )}
-                    </div>
-                  </button>
-                ))}
-              </div>
-            </div>
           </div>
         </div>
 
@@ -352,6 +298,6 @@ export default function Lobby({
           <span>ENGAME VIBRANT © 2026</span>
         </div>
       </motion.div>
-    </div>
+    </section>
   );
 }

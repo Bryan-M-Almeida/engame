@@ -1,7 +1,7 @@
 export const questions = [
   {
     "id": "vtb_01",
-    "imagen": "",
+    "imagen": "https://estudoemcasaapoia.dge.mec.pt/sites/default/files/styles/imagem_do_recurso_isolado/public/2022-04/ingles_verb-to-be_01_imagem-ilustrativa.png?itok=YyUCIRPf",
     "category": "Verb To Be",
     "difficulty": "Fácil",
     "questionText": "Complete the sentence: I ___ a student.",
@@ -11,7 +11,7 @@ export const questions = [
   },
   {
     "id": "vtb_02",
-    "imagen": "",
+    "imagen": "https://estudoemcasaapoia.dge.mec.pt/sites/default/files/styles/imagem_do_recurso_isolado/public/2022-04/ingles_verb-to-be_01_imagem-ilustrativa.png?itok=YyUCIRPf",
     "category": "Verb To Be",
     "difficulty": "Fácil",
     "questionText": "Complete the sentence: She ___ an engineer.",
@@ -21,7 +21,7 @@ export const questions = [
   },
   {
     "id": "vtb_03",
-    "imagen": "",
+    "imagen": "https://estudoemcasaapoia.dge.mec.pt/sites/default/files/styles/imagem_do_recurso_isolado/public/2022-04/ingles_verb-to-be_01_imagem-ilustrativa.png?itok=YyUCIRPf",
     "category": "Verb To Be",
     "difficulty": "Fácil",
     "questionText": "Complete the sentence: They ___ classmates.",
@@ -31,7 +31,7 @@ export const questions = [
   },
   {
     "id": "vtb_04",
-    "imagen": "",
+    "imagen": "https://estudoemcasaapoia.dge.mec.pt/sites/default/files/styles/imagem_do_recurso_isolado/public/2022-04/ingles_verb-to-be_01_imagem-ilustrativa.png?itok=YyUCIRPf",
     "category": "Verb To Be",
     "difficulty": "Fácil",
     "questionText": "Which sentence is correct?",
@@ -46,7 +46,7 @@ export const questions = [
   },
   {
     "id": "vtb_05",
-    "imagen": "",
+    "imagen": "https://estudoemcasaapoia.dge.mec.pt/sites/default/files/styles/imagem_do_recurso_isolado/public/2022-04/ingles_verb-to-be_01_imagem-ilustrativa.png?itok=YyUCIRPf",
     "category": "Verb To Be",
     "difficulty": "Fácil",
     "questionText": "Choose the correct negative sentence.",
@@ -61,7 +61,7 @@ export const questions = [
   },
   {
     "id": "vtb_06",
-    "imagen": "",
+    "imagen": "https://estudoemcasaapoia.dge.mec.pt/sites/default/files/styles/imagem_do_recurso_isolado/public/2022-04/ingles_verb-to-be_01_imagem-ilustrativa.png?itok=YyUCIRPf",
     "category": "Verb To Be",
     "difficulty": "Médio",
     "questionText": "Complete the question: ___ you from Bolivia?",
@@ -71,7 +71,7 @@ export const questions = [
   },
   {
     "id": "vtb_07",
-    "imagen": "",
+    "imagen": "https://estudoemcasaapoia.dge.mec.pt/sites/default/files/styles/imagem_do_recurso_isolado/public/2022-04/ingles_verb-to-be_01_imagem-ilustrativa.png?itok=YyUCIRPf",
     "category": "Verb To Be",
     "difficulty": "Médio",
     "questionText": "What is the correct answer? 'Is she a teacher?'",
@@ -86,7 +86,7 @@ export const questions = [
   },
   {
     "id": "vtb_08",
-    "imagen": "",
+    "imagen": "https://estudoemcasaapoia.dge.mec.pt/sites/default/files/styles/imagem_do_recurso_isolado/public/2022-04/ingles_verb-to-be_01_imagem-ilustrativa.png?itok=YyUCIRPf",
     "category": "Verb To Be",
     "difficulty": "Médio",
     "questionText": "Choose the incorrect sentence.",
@@ -101,7 +101,7 @@ export const questions = [
   },
   {
     "id": "vtb_09",
-    "imagen": "",
+    "imagen": "https://estudoemcasaapoia.dge.mec.pt/sites/default/files/styles/imagem_do_recurso_isolado/public/2022-04/ingles_verb-to-be_01_imagem-ilustrativa.png?itok=YyUCIRPf",
     "category": "Verb To Be",
     "difficulty": "Médio",
     "questionText": "Complete the sentence: My computer ___ very fast.",
@@ -111,7 +111,7 @@ export const questions = [
   },
   {
     "id": "vtb_10",
-    "imagen": "",
+    "imagen": "https://estudoemcasaapoia.dge.mec.pt/sites/default/files/styles/imagem_do_recurso_isolado/public/2022-04/ingles_verb-to-be_01_imagem-ilustrativa.png?itok=YyUCIRPf",
     "category": "Verb To Be",
     "difficulty": "Difícil",
     "questionText": "Choose the correct contraction.",
@@ -126,7 +126,7 @@ export const questions = [
   },
   {
     "id": "vtb_11",
-    "imagen": "",
+    "imagen": "https://estudoemcasaapoia.dge.mec.pt/sites/default/files/styles/imagem_do_recurso_isolado/public/2022-04/ingles_verb-to-be_01_imagem-ilustrativa.png?itok=YyUCIRPf",
     "category": "Verb To Be",
     "difficulty": "Difícil",
     "questionText": "Complete the sentence: The machines ___ operating normally.",
@@ -136,7 +136,7 @@ export const questions = [
   },
   {
     "id": "vtb_12",
-    "imagen": "",
+    "imagen": "https://estudoemcasaapoia.dge.mec.pt/sites/default/files/styles/imagem_do_recurso_isolado/public/2022-04/ingles_verb-to-be_01_imagem-ilustrativa.png?itok=YyUCIRPf",
     "category": "Verb To Be",
     "difficulty": "Difícil",
     "questionText": "Which sentence is grammatically correct?",
@@ -151,7 +151,7 @@ export const questions = [
   },
   {
     "id": "be_01",
-    "imagen": "",
+    "imagen": "https://th.bing.com/th/id/R.2304db4c3ebbd2e4f810081ce098d266?rik=2NWk2GyTyBs3xg&pid=ImgRaw&r=0",
     "category": "Basic English",
     "difficulty": "Fácil",
     "questionText": "Choose the correct sentence.",
@@ -166,7 +166,7 @@ export const questions = [
   },
   {
     "id": "be_02",
-    "imagen": "",
+    "imagen": "https://th.bing.com/th/id/R.2304db4c3ebbd2e4f810081ce098d266?rik=2NWk2GyTyBs3xg&pid=ImgRaw&r=0",
     "category": "Basic English",
     "difficulty": "Fácil",
     "questionText": "Complete the sentence: She ___ English every day.",
@@ -176,7 +176,7 @@ export const questions = [
   },
   {
     "id": "be_03",
-    "imagen": "",
+    "imagen": "https://th.bing.com/th/id/R.2304db4c3ebbd2e4f810081ce098d266?rik=2NWk2GyTyBs3xg&pid=ImgRaw&r=0",
     "category": "Basic English",
     "difficulty": "Fácil",
     "questionText": "Which word is a color?",
@@ -186,7 +186,7 @@ export const questions = [
   },
   {
     "id": "be_04",
-    "imagen": "",
+    "imagen": "https://th.bing.com/th/id/R.2304db4c3ebbd2e4f810081ce098d266?rik=2NWk2GyTyBs3xg&pid=ImgRaw&r=0",
     "category": "Basic English",
     "difficulty": "Fácil",
     "questionText": "Choose the correct greeting for the morning.",
@@ -196,7 +196,7 @@ export const questions = [
   },
   {
     "id": "be_05",
-    "imagen": "",
+    "imagen": "https://th.bing.com/th/id/R.2304db4c3ebbd2e4f810081ce098d266?rik=2NWk2GyTyBs3xg&pid=ImgRaw&r=0",
     "category": "Basic English",
     "difficulty": "Médio",
     "questionText": "Complete the sentence: There are ___ apples on the table.",
@@ -206,7 +206,7 @@ export const questions = [
   },
   {
     "id": "be_06",
-    "imagen": "",
+    "imagen": "https://th.bing.com/th/id/R.2304db4c3ebbd2e4f810081ce098d266?rik=2NWk2GyTyBs3xg&pid=ImgRaw&r=0",
     "category": "Basic English",
     "difficulty": "Médio",
     "questionText": "Choose the correct sentence.",
@@ -221,7 +221,7 @@ export const questions = [
   },
   {
     "id": "be_07",
-    "imagen": "",
+    "imagen": "https://th.bing.com/th/id/R.2304db4c3ebbd2e4f810081ce098d266?rik=2NWk2GyTyBs3xg&pid=ImgRaw&r=0",
     "category": "Basic English",
     "difficulty": "Médio",
     "questionText": "What is the plural of 'child'?",
@@ -231,7 +231,7 @@ export const questions = [
   },
   {
     "id": "be_08",
-    "imagen": "",
+    "imagen": "https://th.bing.com/th/id/R.2304db4c3ebbd2e4f810081ce098d266?rik=2NWk2GyTyBs3xg&pid=ImgRaw&r=0",
     "category": "Basic English",
     "difficulty": "Médio",
     "questionText": "Complete the sentence: My father is ___ engineer.",
@@ -241,7 +241,7 @@ export const questions = [
   },
   {
     "id": "be_09",
-    "imagen": "",
+    "imagen": "https://th.bing.com/th/id/R.2304db4c3ebbd2e4f810081ce098d266?rik=2NWk2GyTyBs3xg&pid=ImgRaw&r=0",
     "category": "Basic English",
     "difficulty": "Difícil",
     "questionText": "Which sentence is correct?",
@@ -256,7 +256,7 @@ export const questions = [
   },
   {
     "id": "be_10",
-    "imagen": "",
+    "imagen": "https://th.bing.com/th/id/R.2304db4c3ebbd2e4f810081ce098d266?rik=2NWk2GyTyBs3xg&pid=ImgRaw&r=0",
     "category": "Basic English",
     "difficulty": "Difícil",
     "questionText": "Complete the sentence: We usually ___ lunch at 12:30.",
@@ -266,7 +266,7 @@ export const questions = [
   },
   {
     "id": "be_11",
-    "imagen": "",
+    "imagen": "https://th.bing.com/th/id/R.2304db4c3ebbd2e4f810081ce098d266?rik=2NWk2GyTyBs3xg&pid=ImgRaw&r=0",
     "category": "Basic English",
     "difficulty": "Difícil",
     "questionText": "Choose the correct question.",
@@ -281,7 +281,7 @@ export const questions = [
   },
   {
     "id": "be_12",
-    "imagen": "",
+    "imagen": "https://th.bing.com/th/id/R.2304db4c3ebbd2e4f810081ce098d266?rik=2NWk2GyTyBs3xg&pid=ImgRaw&r=0",
     "category": "Basic English",
     "difficulty": "Difícil",
     "questionText": "Which sentence is grammatically correct?",
@@ -296,7 +296,7 @@ export const questions = [
   },
   {
     "id": "voc_01",
-    "imagen": "",
+    "imagen": "https://tse3.mm.bing.net/th/id/OIP.-y65XBZ1YCA28bblvrbu_AHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
     "category": "Vocabulary",
     "difficulty": "Fácil",
     "questionText": "What is the English word for 'libro'?",
@@ -306,7 +306,7 @@ export const questions = [
   },
   {
     "id": "voc_02",
-    "imagen": "",
+    "imagen": "https://tse3.mm.bing.net/th/id/OIP.-y65XBZ1YCA28bblvrbu_AHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
     "category": "Vocabulary",
     "difficulty": "Fácil",
     "questionText": "Which word means 'computer'?",
@@ -316,7 +316,7 @@ export const questions = [
   },
   {
     "id": "voc_03",
-    "imagen": "",
+    "imagen": "https://tse3.mm.bing.net/th/id/OIP.-y65XBZ1YCA28bblvrbu_AHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
     "category": "Vocabulary",
     "difficulty": "Fácil",
     "questionText": "What is the English word for 'mesa'?",
@@ -326,7 +326,7 @@ export const questions = [
   },
   {
     "id": "voc_04",
-    "imagen": "",
+    "imagen": "https://tse3.mm.bing.net/th/id/OIP.-y65XBZ1YCA28bblvrbu_AHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
     "category": "Vocabulary",
     "difficulty": "Fácil",
     "questionText": "Which word is a profession?",
@@ -336,7 +336,7 @@ export const questions = [
   },
   {
     "id": "voc_05",
-    "imagen": "",
+    "imagen": "https://tse3.mm.bing.net/th/id/OIP.-y65XBZ1YCA28bblvrbu_AHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
     "category": "Vocabulary",
     "difficulty": "Médio",
     "questionText": "What does the word 'engineer' mean?",
@@ -346,7 +346,7 @@ export const questions = [
   },
   {
     "id": "voc_06",
-    "imagen": "",
+    "imagen": "https://tse3.mm.bing.net/th/id/OIP.-y65XBZ1YCA28bblvrbu_AHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
     "category": "Vocabulary",
     "difficulty": "Médio",
     "questionText": "Which word is related to a computer?",
@@ -356,7 +356,7 @@ export const questions = [
   },
   {
     "id": "voc_07",
-    "imagen": "",
+    "imagen": "https://tse3.mm.bing.net/th/id/OIP.-y65XBZ1YCA28bblvrbu_AHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
     "category": "Vocabulary",
     "difficulty": "Médio",
     "questionText": "Choose the synonym of 'fast'.",
@@ -366,7 +366,7 @@ export const questions = [
   },
   {
     "id": "voc_08",
-    "imagen": "",
+    "imagen": "https://tse3.mm.bing.net/th/id/OIP.-y65XBZ1YCA28bblvrbu_AHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
     "category": "Vocabulary",
     "difficulty": "Médio",
     "questionText": "Which word is the opposite of 'big'?",
@@ -376,7 +376,7 @@ export const questions = [
   },
   {
     "id": "voc_09",
-    "imagen": "",
+    "imagen": "https://tse3.mm.bing.net/th/id/OIP.-y65XBZ1YCA28bblvrbu_AHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
     "category": "Vocabulary",
     "difficulty": "Difícil",
     "questionText": "Which word means 'to repair a machine or system'?",
@@ -386,7 +386,7 @@ export const questions = [
   },
   {
     "id": "voc_10",
-    "imagen": "",
+    "imagen": "https://tse3.mm.bing.net/th/id/OIP.-y65XBZ1YCA28bblvrbu_AHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
     "category": "Vocabulary",
     "difficulty": "Difícil",
     "questionText": "Which word refers to a group of connected computers?",
@@ -396,7 +396,7 @@ export const questions = [
   },
   {
     "id": "voc_11",
-    "imagen": "",
+    "imagen": "https://tse3.mm.bing.net/th/id/OIP.-y65XBZ1YCA28bblvrbu_AHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
     "category": "Vocabulary",
     "difficulty": "Difícil",
     "questionText": "What does the word 'factory' mean?",
@@ -406,7 +406,7 @@ export const questions = [
   },
   {
     "id": "voc_12",
-    "imagen": "",
+    "imagen": "https://tse3.mm.bing.net/th/id/OIP.-y65XBZ1YCA28bblvrbu_AHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
     "category": "Vocabulary",
     "difficulty": "Difícil",
     "questionText": "Which word best completes the sentence? 'The programmer writes ______.'",
@@ -416,7 +416,7 @@ export const questions = [
   },
   {
     "id": "read_01",
-    "imagen": "",
+    "imagen": "https://tse2.mm.bing.net/th/id/OIP.Ktsjd7x7rgFdRHsCmjNVxQHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
     "category": "Reading",
     "difficulty": "Fácil",
     "questionText": "Read the text:\n\n'John is a university student. He studies Software Engineering and likes programming.'\n\nWhat does John study?",
@@ -431,7 +431,7 @@ export const questions = [
   },
   {
     "id": "read_02",
-    "imagen": "",
+    "imagen": "https://tse2.mm.bing.net/th/id/OIP.Ktsjd7x7rgFdRHsCmjNVxQHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
     "category": "Reading",
     "difficulty": "Fácil",
     "questionText": "Read the text:\n\n'Maria works in a factory from Monday to Friday.'\n\nWhere does Maria work?",
@@ -441,7 +441,7 @@ export const questions = [
   },
   {
     "id": "read_03",
-    "imagen": "",
+    "imagen": "https://tse2.mm.bing.net/th/id/OIP.Ktsjd7x7rgFdRHsCmjNVxQHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
     "category": "Reading",
     "difficulty": "Fácil",
     "questionText": "Read the text:\n\n'The computer is on the desk next to the keyboard.'\n\nWhere is the computer?",
@@ -456,7 +456,7 @@ export const questions = [
   },
   {
     "id": "read_04",
-    "imagen": "",
+    "imagen": "https://tse2.mm.bing.net/th/id/OIP.Ktsjd7x7rgFdRHsCmjNVxQHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
     "category": "Reading",
     "difficulty": "Fácil",
     "questionText": "Read the text:\n\n'Emma has two brothers and one sister.'\n\nHow many siblings does Emma have?",
@@ -466,7 +466,7 @@ export const questions = [
   },
   {
     "id": "read_05",
-    "imagen": "",
+    "imagen": "https://tse2.mm.bing.net/th/id/OIP.Ktsjd7x7rgFdRHsCmjNVxQHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
     "category": "Reading",
     "difficulty": "Médio",
     "questionText": "Read the text:\n\n'The meeting starts at 8:30 a.m., but students should arrive 15 minutes earlier.'\n\nWhat time should students arrive?",
@@ -476,7 +476,7 @@ export const questions = [
   },
   {
     "id": "read_06",
-    "imagen": "",
+    "imagen": "https://tse2.mm.bing.net/th/id/OIP.Ktsjd7x7rgFdRHsCmjNVxQHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
     "category": "Reading",
     "difficulty": "Médio",
     "questionText": "Read the text:\n\n'Tom doesn't like coffee, but he drinks tea every morning.'\n\nWhat does Tom drink every morning?",
@@ -486,7 +486,7 @@ export const questions = [
   },
   {
     "id": "read_07",
-    "imagen": "",
+    "imagen": "https://tse2.mm.bing.net/th/id/OIP.Ktsjd7x7rgFdRHsCmjNVxQHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
     "category": "Reading",
     "difficulty": "Médio",
     "questionText": "Read the text:\n\n'The server is offline because of a power outage.'\n\nWhy is the server offline?",
@@ -501,7 +501,7 @@ export const questions = [
   },
   {
     "id": "read_08",
-    "imagen": "",
+    "imagen": "https://tse2.mm.bing.net/th/id/OIP.Ktsjd7x7rgFdRHsCmjNVxQHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
     "category": "Reading",
     "difficulty": "Médio",
     "questionText": "Read the text:\n\n'Sarah bought three notebooks, two pens, and one ruler.'\n\nHow many pens did Sarah buy?",
@@ -511,7 +511,7 @@ export const questions = [
   },
   {
     "id": "read_09",
-    "imagen": "",
+    "imagen": "https://tse2.mm.bing.net/th/id/OIP.Ktsjd7x7rgFdRHsCmjNVxQHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
     "category": "Reading",
     "difficulty": "Difícil",
     "questionText": "Read the text:\n\n'The production line stopped because one machine needed maintenance.'\n\nWhy did the production line stop?",
@@ -526,7 +526,7 @@ export const questions = [
   },
   {
     "id": "read_10",
-    "imagen": "",
+    "imagen": "https://tse2.mm.bing.net/th/id/OIP.Ktsjd7x7rgFdRHsCmjNVxQHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
     "category": "Reading",
     "difficulty": "Difícil",
     "questionText": "Read the text:\n\n'Although it was raining, the engineers continued working outside.'\n\nWhat was the weather like?",
@@ -536,7 +536,7 @@ export const questions = [
   },
   {
     "id": "read_11",
-    "imagen": "",
+    "imagen": "https://tse2.mm.bing.net/th/id/OIP.Ktsjd7x7rgFdRHsCmjNVxQHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
     "category": "Reading",
     "difficulty": "Difícil",
     "questionText": "Read the text:\n\n'The software passed all tests before it was released to customers.'\n\nWhat happened before the release?",
@@ -551,7 +551,7 @@ export const questions = [
   },
   {
     "id": "read_12",
-    "imagen": "",
+    "imagen": "https://tse2.mm.bing.net/th/id/OIP.Ktsjd7x7rgFdRHsCmjNVxQHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
     "category": "Reading",
     "difficulty": "Difícil",
     "questionText": "Read the text:\n\n'Lisa forgot her ID card, so she couldn't enter the laboratory.'\n\nWhy couldn't Lisa enter the laboratory?",

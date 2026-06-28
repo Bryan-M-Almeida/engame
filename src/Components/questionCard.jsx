@@ -166,6 +166,11 @@ export default function QuestionCard({
         </div>
 
         {/* Question Text */}
+
+        <div className="flex items-center justify-center">
+          <img src={question.imagen} alt="" className="w-full md:w-[50%] rounded-md border bg-purple-100 hover:scale-102 duration-300 transition-transform p-1 border-black" />
+        </div>
+
         <h2 className="text-lg md:text-2xl font-black text-white leading-relaxed mb-6 font-display">
           {question.questionText}
         </h2>

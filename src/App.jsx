@@ -6,12 +6,12 @@ import QuestionCard from "./Components/questionCard";
 import StatsSummary from "./Components/statsSummary";
 import { questions } from "./Data/questions";
 import { getMuted, setMuted, playSound } from "./Utils/audio";
+import Hero from "./Components/hero";
 
 export default function App() {
   const [gameStage, setGameStage] = useState("lobby"); // 'lobby' | 'playing' | 'summary'
   const [playerName, setPlayerName] = useState("");
   const [selectedDifficulty, setSelectedDifficulty] = useState("Medio");
-  const [selectedCategory, setSelectedCategory] = useState("Todos");
 
   const [currentQuestions, setCurrentQuestions] = useState([]);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
@@ -43,28 +43,21 @@ export default function App() {
     setMuted(nextMute);
   };
 
-  const handleStartGame = ({ playerName, difficulty, category }) => {
+  const handleStartGame = ({ playerName, difficulty }) => {
     setPlayerName(playerName);
     setSelectedDifficulty(difficulty);
-    setSelectedCategory(category);
 
-    // Filter questions based on category and difficulty
-    let filtered = questions.filter((q) => {
-      const matchCat = category === "Todos" || q.category === category;
-      const matchDiff = q.difficulty === difficulty;
-      return matchCat && matchDiff;
-    });
+    const questionsQuantity = {
+      Facil: 8,
+      Medio: 12,
+      Difícil: 16,
+    };
 
-    // Fallback: if not enough questions on selected difficulty + category, take all of that category
-    if (filtered.length < 5) {
-      filtered = questions.filter(
-        (q) => category === "Todos" || q.category === category,
-      );
-    }
+    const totalQuestions = questionsQuantity[difficulty] ?? 5;
 
-    // Shuffle and pick 5 questions (or up to 5)
-    const shuffled = [...filtered].sort(() => 0.5 - Math.random());
-    const selectedQuestions = shuffled.slice(0, questions.length);
+    const shuffled = [...questions].sort(() => Math.random() - 0.5);
+
+    const selectedQuestions = shuffled.slice(0, totalQuestions);
 
     setCurrentQuestions(selectedQuestions);
     setCurrentQuestionIndex(0);
@@ -156,20 +149,6 @@ export default function App() {
       // Game Over / Summary Stage
       setGameStage("summary");
       playSound("victory");
-
-      // Update personal best scores in LocalStorage
-      const currentCategoryBest = bestScores[selectedCategory] || 0;
-      if (score > currentCategoryBest) {
-        const updatedBests = {
-          ...bestScores,
-          [selectedCategory]: score,
-        };
-        setBestScores(updatedBests);
-        localStorage.setItem(
-          "engame_best_scores",
-          JSON.stringify(updatedBests),
-        );
-      }
     }
   };
 
@@ -188,6 +167,7 @@ export default function App() {
         className="min-h-screen bg-indigo-950 text-white flex flex-col items-center justify-between selection:bg-yellow-300 selection:text-indigo-950 pb-6"
         id="app-root"
       >
+        <Hero />
         <main className="flex-grow flex items-center justify-center py-6 md:py-10 px-4">
           {gameStage === "lobby" && (
             <Lobby
@@ -200,8 +180,8 @@ export default function App() {
           {gameStage === "playing" && currentQuestions.length > 0 && (
             <QuestionCard
               question={currentQuestions[currentQuestionIndex]}
-              questionNumber={currentQuestionIndex + 1}
               totalQuestions={currentQuestions.length}
+              questionNumber={currentQuestionIndex + 1}
               onAnswerSelected={handleAnswerSelected}
               onNextQuestion={handleNextQuestion}
               score={score}
